@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        form {
+            margin: auto;
+            width: min(600px, 80%);
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-image: url('background_image_url_here'); /* Replace with your own image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        /* Other styling rules for labels, input fields, checkboxes, etc. */
+        /* ... */
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Student Registration Form</h2>
+        <!-- Add input fields for first name, last name, date of birth, email, mobile, gender, address, etc. -->
+        <!-- Example: -->
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+        <!-- Add other input fields similarly -->
+        
+        <!-- Add checkboxes for hobbies -->
+        <!-- Example: -->
+        <label>Hobbies:</label>
+        <div class="checkboxes">
+            <div class="checkbox">
+                <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+                <label for="hobby1">Reading</label>
+            </div>
+            <!-- Add other hobbies checkboxes similarly -->
+        </div>
+        
+        <!-- Add an academic details table -->
+        <!-- Example: -->
+        <label>Qualification:</label>
+        <table>
+            <tr>
+                <th></th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <!-- Add rows for 10th, 12th, and graduation -->
+            <!-- Example: -->
+            <tr>
+                <td>10th</td>
+                <td><input type="text" name="10-board" required></td>
+                <td><input type="text" name="10-percentage" required></td>
+                <td><input type="text" name="10-year-of-passing" required></td>
+            </tr>
+            <!-- Add other rows similarly -->
+        </table>
+        
+        <!-- Add reset and submit buttons -->
+        <!-- Example: -->
+        <div class="buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

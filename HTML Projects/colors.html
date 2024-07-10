@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 100px 1fr 1fr 100px;
+            grid-template-areas: "n n n n"
+            "s m m m"
+            "s c1 c2 c3"
+            "f f f f";
+        }
+        .box1{
+            background-color: rgb(160, 239, 239);
+            grid-area: n;
+        }
+        .box2{
+            background-color: rgb(127, 255, 155);
+            grid-area: s;
+        }
+        .box3{
+            background-color: rgb(247, 228, 169);
+            grid-area: m;
+        }
+        .box4{
+            background-color: rgb(171, 154, 238);
+            grid-area: c1;
+        }
+        .box5{
+            background-color: rgb(228, 146, 244);
+            grid-area: c2;
+        }
+        .box6{
+            background-color: rgb(160, 241, 180);
+            grid-area: c3;
+        }
+        .box7{
+            background-color: rgb(70, 225, 230);
+            grid-area: f;
+        }
+    </style>
+</head>
+<body>
+      <div class="container">
+        <div class="box1">HOME</div>
+        <div class="box2">ABOUT</div>
+        <div class="box3">CONTACT</div>
+        <div class="box4">SEARCH</div>
+        <div class="box5">PREVIEW</div>
+        <div class="box6">EXIT</div>
+        <div class="box7"></div>
+      </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+</body>
+</html>
+
+
+

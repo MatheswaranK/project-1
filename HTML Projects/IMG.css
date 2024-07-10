@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image</title>
+    <link rel="stylesheet" href="img.css">
+</head>
+<body>
+    <div id="container_title"><h1>GALLERY</h1></div>
+    <div class="container">
+        <div>
+         <img src="https://th.bing.com/th?id=OSK.HEROzE3AebSx18whoDHl1nLVYrPExnokzGL8v4b_VnAuJ4Y&w=312&h=200&c=15&rs=2&o=6&dpr=1.4&pid=SANGAM">
+         <h1>DEER</h1>
+         <P>Deer live in a variety of biomes, ranging from tundra to the tropical rainforest. While often associated with forests, many deer are ecotone species that live in transitional areas between forests and thickets </P>
+        </div>
+        <div>
+         <img src="https://www.bing.com/th?id=OIP.zb2bMkSw2aP62F8liqmASQHaE8&w=202&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2">
+         <h1>TIGER</h1>
+         <p>The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail, and orange fur with black.</p>
+        </div>
+        <div>
+         <img src="https://th.bing.com/th/id/OIP.cWzi90rHoCEOR-S-41ALzgHaF7?w=204&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7">
+         <h1>HORSE</h1>
+         <p>The horse (Equus ferus caballus)[2][3] is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus.</p>
+        </div>
+        <div>
+         <img src="https://th.bing.com/th/id/OIP.uSB9xvmtZYRyPBzhza5W1wHaEo?w=316&h=197&c=7&r=0&o=5&dpr=1.4&pid=1.7">
+         <h1>LION</h1>
+         <p>The lion (Panthera leo) is a large cat of the genus Panthera, native to Africa and India. It has a muscular, broad-chested body; a short, rounded head; round ears; and a hairy tuft at the end of its tail. </p>
+        </div>
+    </div>
+</body>
+</html>
